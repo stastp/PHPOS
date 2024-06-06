@@ -1,0 +1,75 @@
+body { /* Общий стиль страницы */
+background: #101010; /* Цвет фона */
+}
+a { /* оформление тэг "a" */
+color: #fff;/* Цвет */
+}
+h5 { /* оформение тэга "h5" */
+font: 16px Arial, Verdana, Tahoma, sans-serif; /* Настройка шрифта */
+color: #fff; /* Цвет шрифта */
+margin: 0 auto 40px;
+padding: 0;
+text-align: center; /* Размещение по центру */
+width: 80%; /* Ширина */
+}
+
+h6 { /* Оформление тэга "р6" */
+font: 12px Arial, Verdana, Tahoma, sans-serif; /* Настройка шрифта */
+color: #fff; /* Цвет шрифта */
+margin: 0 auto 40px;
+padding: 0;
+text-align: center; /* Размещение по центру */
+width: 80%;/* Ширина */
+}
+
+h2 {/* Оформление тэга "р2" */
+font: 28px tahoma, verdana, arial, sans-serif;/* Настройка шрифта */
+font-weight: bold;
+color: #84e03a;/* Цвет шрифта */
+margin: 0;
+padding: 0 0 10px 0;
+}
+div { /* Оформление БЛОГа */
+border: 2px solid #1d1d1d; 
+padding: 10px;
+font: 12px Verdana, Tahoma, Arial, sans-serif;/* Шрифт */
+width: 600px;/* Ширина*/
+margin: 10px auto;
+color: #fff;/* цвет */
+}
+/* Далее все по примеру выше :) Все просто учим CSS если не понятно что то */
+label, input {
+font: 14px Verdana, Tahoma, Arial, sans-serif;
+}
+label {
+display: block;
+width: 100px;
+float: left;
+color: #fff;
+}
+input {
+border: 0;
+padding: 2px;
+}
+input#install {
+display: block;
+background-color: #101010;
+color: #84e03a;
+font: 32px Verdana, Tahoma, Arial, sans-serif;
+margin: 0 auto;
+text-decoration: underline;
+}
+input#username, input#password, input#email, label {
+margin-top: 10px;
+}
+input#username {
+clear: right;
+}
+div.error {
+color: #ff0000;
+text-align: center;
+}
+div.success {
+color: #84e03a;
+text-align: center;
+}
